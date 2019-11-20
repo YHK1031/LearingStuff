@@ -1,4 +1,5 @@
-# Autowiring Injection Type
+# Autowiring
+## Injection Type
 ```
 1. Constructor Injection
 2. Setter Injection
