@@ -12,4 +12,4 @@ Errors such as an null pointer exception can be cause due to the bean creation p
 In contrast to the other scopes, Spring does not manage the complete lifecycle of aprototype bean
 ```
 </br>
-So that <Strong>@PreDestroy</Strong> is not called in <Strong>prototype scope!
+So that <Strong>@PreDestroy</Strong> is not called in <Strong>prototype</Strong> scope!
