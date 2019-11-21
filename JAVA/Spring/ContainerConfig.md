@@ -10,4 +10,5 @@
 2. Also use <Strong>ClassPathXmlApplicationContext</Strong> to add XML file.</br>
 However, instead of defining beans and dependencies inside XML file, only entry(context:component-scan) to enable component scanning is added inside of XML file.</br>
 Beans and dependencies defined automatically just by adding @Component or @Autowired since the container do the scanning.
-3. Use <Strong>AnnotationConfigApplicationContext</Strong> to add JAVA config class. The configuration class is defined by using <Strong>@Configuration</Strong>, <Strong>@ComponentScan("directory")</Strong>.
+3. Use <Strong>AnnotationConfigApplicationContext</Strong> to add JAVA config class. The configuration class is defined by using <Strong>@Configuration</Strong>, <Strong>@ComponentScan("directory")</Strong>. </br>
+If dependencies are injected directly to beans, then <Strong>@Configuration</Strong> is not required.
