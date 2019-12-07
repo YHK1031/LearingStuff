@@ -1,12 +1,12 @@
 # ModelAttribute Annotation
 <Strong>@ModelAttribute</Strong> is used to bind a model parameter or inject data.
 ### When used in method
-```
+~~~JAVA
 
-```
+~~~
 It injects data so that it can be used in JSP.
 
-### when used in parameter
+### When used in parameter
 ```
 
 ```
