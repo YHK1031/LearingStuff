@@ -12,7 +12,7 @@ It injects data so that it can be used in JSP.
 ### When used in parameter
 ~~~java
 public String processForm(@ModelAttribute("student") Student theStudent) {
-        return "student-confirmation";
-	}
+      return "student-confirmation";
+}
 ~~~
 It binds the object handed over from http request to the model. Now attributes of the model can be used in JSP.
