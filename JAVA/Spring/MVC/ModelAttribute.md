@@ -15,4 +15,4 @@ public String processForm(@ModelAttribute("student") Student theStudent) {
       return "student-confirmation";
 }
 ~~~
-It binds the object handed over from http request to the model. Now attributes of the model can be used in JSP.
+It binds the object handed over from http request to the model. Now attributes of the model can be used in JSP.<br> (<Strong>${student.firstName}</Strong>)
