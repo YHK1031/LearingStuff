@@ -1,7 +1,7 @@
 # Useful Links
 ```
 <ul>
-  <li> https://www.jrebel.com/blog/maven-cheat-sheet
-  <li> http://maven.apache.org/guides/
-<ul>
+  <li> <a href="https://www.jrebel.com/blog/maven-cheat-sheet">maven-cheat-sheet</a> </li>
+  <li> <a href="http://maven.apache.org/guides/">maven.apache.org/guides</a></li>
+</ul>
 ```
