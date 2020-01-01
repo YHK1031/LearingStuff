@@ -12,7 +12,8 @@
 <li>It is a concept that can be used by framework and so on...
 <li>Hibernate, EclipseLink, DataNucleus are frameworks that supports JPA.
 </ul>
-## Adavantages of using JPA
+
+### Adavantages of using JPA
 <ol>
 <li>Development more focused on object-oriented rather than SQL.
   <ul>
