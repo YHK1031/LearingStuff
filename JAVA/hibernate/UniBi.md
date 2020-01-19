@@ -4,9 +4,9 @@ Linked in one way so that any operations like delete can be done in one directio
 And <Strong>@JoinColumn</Strong> is applied on a property. It finds <Strong>FK(foreign key)</Strong> from the table which can be found by the return type of the method.
 ```Java
 public class First{
-@OneToOne
-@JoinColumn(name="columnName")
-private Second second
+  @OneToOne
+  @JoinColumn(name="columnName")
+  private Second second
 }
 ```
 
@@ -16,8 +16,8 @@ Linked in two way. In cascade operation, deleting one row cause deleting a linke
 And <Strong>mappedBy</Strong> is used inside of the mapping annotation with property name of the other column.<br>
 ```Java
 public class Second{
-@OneToOne(mappedBy="second")
-private First first
+  @OneToOne(mappedBy="second")
+  private First first
 }
 ```
 ### Notes
