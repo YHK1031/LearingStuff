@@ -23,4 +23,6 @@ public class Second{
 ### Notes
 It is important to setting the relationship one to another when using Bi-directional relationship.<br>
 Column with <Strong>mappedBy</Strong> will automatically associate with other column but the one with <Strong>@JoinColumn</Strong> will not.<br>
-Therefore, association is needed for property with <Strong>@JoinColumn</Strong>.
+Therefore, association is needed for property with <Strong>@JoinColumn</Strong> to make Bi-directional relationship.<br>
+One with <Strong>@JoinColumn</Strong> acts like an master so that data can be updated or inserted only through this owner object.<br>
+On the other hand, the one with <Strong>mappedBy</Strong> is used only for reading.
