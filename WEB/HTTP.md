@@ -6,8 +6,7 @@
 </ol>
 Since http is stateless, <Strong>cookie and session</Strong> is used for stateful service.
 
-## It is a protocol in transfering data in web.<br><br>
-
+## It is a protocol in transfering data in web.
 HTTP request message consist of three parts.<br>
 <ul>
   <li>First, Start line containing http method, address, and http version.</li>
