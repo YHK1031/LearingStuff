@@ -33,7 +33,7 @@ It is more secure than cookie since it is saved in server instead of local.
 </ol>
 
 For the security reason, comparing ip of the admin as well as the session ID would be recommended.
-<br><br>
+<br><br><br>
 
 # Cache
 Unlike cookie and session, it contains resource files like images, videos, CSS, JS, and so on instead of user data.<br>
