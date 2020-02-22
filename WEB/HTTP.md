@@ -1,5 +1,13 @@
-# HTTP
-## HTTP is Hyper Text Transfer Protocol. It is a protocol in transfering data in web.<br><br>
+# HTTP (Hyper Text Transfer Protocol)
+### Characteristics
+<ol>
+  <li>Stateless : It does not hold the previous data.</li>
+  <li>Connectionless : It disconnects after the response of the request.</li>
+</ol>
+Since http is stateless, <Strong>cookie and session</Strong> is used for stateful service.
+
+## It is a protocol in transfering data in web.<br><br>
+
 HTTP request message consist of three parts.<br>
 <ul>
   <li>First, Start line containing http method, address, and http version.</li>
