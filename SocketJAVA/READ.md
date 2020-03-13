@@ -1,1 +1,1 @@
-# Multi-Chatting program sample using JAVA
+# Simple Multi-Chatting program using JAVA
